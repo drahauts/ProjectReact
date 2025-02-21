@@ -1,0 +1,150 @@
+[
+    {
+      "id": 0,
+      "nome": "Anna",
+      "cognome": "Bianchi",
+      "posizione": "Ricercatore",
+      "stipendio": 45500.30
+    },
+    {
+      "id": 1,
+      "nome": "Mario",
+      "cognome": "Rossi",
+      "posizione": "Ricercatore",
+      "stipendio": 35500.00
+    },
+    {
+      "id": 2,
+      "nome": "Barbara",
+      "cognome": "Burso",
+      "posizione": "Ricercatore",
+      "stipendio": 40442.50
+    },
+    {
+      "id": 3,
+      "nome": "Gino",
+      "cognome": "Spada",
+      "posizione": "Ricercatore",
+      "stipendio": 35870.90
+    },
+    {
+      "id": 4,
+      "nome": "Aurora",
+      "cognome": "Bianchi",
+      "posizione": "Professore Associato",
+      "stipendio": 43500.50
+    },
+    {
+      "id": 5,
+      "nome": "Guido",
+      "cognome": "Spensierato",
+      "posizione": "Professore Associato",
+      "stipendio": 38221.00
+    },
+    {
+      "id": 6,
+      "nome": "Consolata",
+      "cognome": "Ferrari",
+      "posizione": "Professore Associato",
+      "stipendio": 29200.10
+    },
+    {
+      "id": 7,
+      "nome": "Andrea",
+      "cognome": "Verona",
+      "posizione": "Professore Associato",
+      "stipendio": 39002.05
+    },
+    {
+      "id": 8,
+      "nome": "Asia",
+      "cognome": "Giordano",
+      "posizione": "Professore Ordinario",
+      "stipendio": 45200.10
+    },
+    {
+      "id": 9,
+      "nome": "Carlo",
+      "cognome": "Zante",
+      "posizione": "Professore Ordinario",
+      "stipendio": 40230.00
+    },
+    {
+      "id": 10,
+      "nome": "Ginevra",
+      "cognome": "Riva",
+      "posizione": "Professore Ordinario",
+      "stipendio": 39955.00
+    },
+    {
+      "id": 11,
+      "nome": "Davide",
+      "cognome": "Quadro",
+      "posizione": "Professore Ordinario",
+      "stipendio": 36922.10
+    },
+    {
+      "id": 12,
+      "nome": "Dario",
+      "cognome": "Basile",
+      "posizione": "Ricercatore",
+      "stipendio": 42566.00
+    },
+    {
+      "id": 13,
+      "nome": "Silvia",
+      "cognome": "Donati",
+      "posizione": "Professore Ordinario",
+      "stipendio": 38005.00
+    },
+    {
+      "id": 14,
+      "nome": "Fiorella",
+      "cognome": "Martino",
+      "posizione": "Professore Associato",
+      "stipendio": 35544.50
+    },
+    {
+      "id": 15,
+      "nome": "Leonardo",
+      "cognome": "Vitali",
+      "posizione": "Professore Ordinario",
+      "stipendio": 38779.80
+    },
+    {
+      "id": 16,
+      "nome": "Paolo",
+      "cognome": "Valentini",
+      "posizione": "Professore Associato",
+      "stipendio": 39200.00
+    },
+    {
+      "id": 17,
+      "nome": "Emilio",
+      "cognome": "Greco",
+      "posizione": "Professore Associato",
+      "stipendio": 42020.00
+    },
+    {
+      "id": 18,
+      "nome": "Giulia",
+      "cognome": "Costa",
+      "posizione": "Ricercatore",
+      "stipendio": 40220.00
+    },
+    {
+      "id": 19,
+      "nome": "Elisa",
+      "cognome": "Longo",
+      "posizione": "Professore Associato",
+      "stipendio": 39001.00
+    },
+    {
+      "id": 20,
+      "nome": "Carla",
+      "cognome": "Martinelli",
+      "posizione": "Ricercatore",
+      "stipendio": 42030.20
+    }
+  ]
+  
