@@ -24,7 +24,6 @@ const Associato = () => {
       .catch((error) => console.error("Errore con ricevimento dati: ", error));
   }, []);
 
-  // Функция сортировки
   const sortData = (key) => {
     let direction = "asc";
     if (sortConfig.key === key && sortConfig.direction === "asc") {
@@ -41,7 +40,7 @@ const Associato = () => {
     setFilteredAssociati(sortedData);
   };
 
-  // Фильтрация данных по имени и фамилии
+  // Cerca per nome e cognome
   useEffect(() => {
     const filtered = associati.filter((item) =>
       `${item.nome} ${item.cognome}`.toLowerCase().includes(searchTerm.toLowerCase())
@@ -54,7 +53,6 @@ const Associato = () => {
       <br />
       <h1 className="text-center mb-4">Professori Associati</h1>
 
-      {/* Поле ввода для поиска */}
       <input
         type="text"
         className="form-control mb-3"
