@@ -1,8 +1,64 @@
-# React + Vite
+# Progetto React + Flask API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Questo progetto utilizza **React** per la parte frontend e **Flask** per fornire un'API che serve dati da un file JSON locale.
 
-Currently, two official plugins are available:
+## Struttura del Progetto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Backend (Flask)
+
+Il backend è costituito dal file `dbJson.py`, che fornisce endpoint per recuperare informazioni sui ricercatori, professori ordinari e associati.
+
+**Dipendenze necessarie:**
+
+- Python 3
+- Flask
+- Flask-CORS
+
+**Avvio del backend:**
+
+```bash
+pip install flask flask-cors  # Installazione delle dipendenze
+python dbJson.py  # Avvio del server
+```
+
+Il server sarà disponibile su `http://0.0.0.0:5002`.
+
+### Frontend (React)
+
+**Dipendenze necessarie:**
+
+- Node.js
+- Vite (per lo sviluppo)
+
+**Avvio del frontend:**
+
+1. Installare Node.js (se necessario)
+   ```bash
+   nvm install node
+   ```
+2. Installare le dipendenze
+   ```bash
+   npm install
+   ```
+3. Avviare l'applicazione
+   ```bash
+   npm run dev
+   ```
+
+Il frontend sarà disponibile su `http://localhost:5173`.
+
+## API disponibili
+
+- **GET /ricercatori** → Restituisce i ricercatori
+- **GET /ordinari** → Restituisce i professori ordinari
+- **GET /associati** → Restituisce i professori associati
+- **GET /professori** → Restituisce tutti i professori ordinati per posizione
+
+## Autore
+
+Progetto sviluppato da **[Il Tuo Nome]**.
+
+## Licenza
+
+Questo progetto è distribuito sotto la licenza MIT.
+
