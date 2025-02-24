@@ -30,7 +30,7 @@ pip install flask flask-cors  # Installazione delle dipendenze
 python dbJson.py  # Avvio del server
 ```
 
-Il server sarà disponibile su `http://0.0.0.0:5002`.
+Il server sarà disponibile su `http://127.0.0.1:5002`.
 
 ### Frontend (React)
 
