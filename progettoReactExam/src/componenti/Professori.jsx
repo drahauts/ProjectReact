@@ -8,9 +8,9 @@ import { useNavigate } from "react-router-dom";
 
 const Professori = () => {
   const [professori, setProfessori] = useState([]);
-  const [filteredProfessori, setFilteredProfessori] = useState([]); // Отфильтрованные данные
+  const [filteredProfessori, setFilteredProfessori] = useState([]);
   const [sortConfig, setSortConfig] = useState({ key: null, direction: "asc" });
-  const [searchTerm, setSearchTerm] = useState(""); // Стейт для поиска
+  const [searchTerm, setSearchTerm] = useState(""); 
 
   const navigate = useNavigate(); 
 
@@ -25,7 +25,7 @@ const Professori = () => {
       .catch((error) => console.error("Errore con ricevimento dati: ", error));
   }, []);
 
-  // Функция сортировки
+
   const sortData = (key) => {
     let direction = "asc";
     if (sortConfig.key === key && sortConfig.direction === "asc") {
