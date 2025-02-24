@@ -2,6 +2,15 @@
 
 Questo progetto utilizza **React** per la parte frontend e **Flask** per fornire un'API che serve dati da un file JSON locale.
 
+Clonare il Repository
+
+Per iniziare, clona questa repository sul tuo computer:
+
+```bash
+git clone https://github.com/drahauts/ProjectReact.git nome-repo
+cd nome-repo
+```
+
 ## Struttura del Progetto
 
 ### Backend (Flask)
