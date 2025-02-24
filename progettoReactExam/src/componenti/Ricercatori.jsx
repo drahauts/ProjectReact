@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 const Ricercatori = () => {
   const [ricercatori, setRicercatori] = useState([]);
-  const [filteredRicercatori, setFilteredRicercatori] = useState([]); // Отфильтрованные данные
+  const [filteredRicercatori, setFilteredRicercatori] = useState([]);
   const [sortConfig, setSortConfig] = useState({ key: null, direction: "asc" });
   const [searchTerm, setSearchTerm] = useState(""); // Стейт для поиска
   const navigate = useNavigate(); 
@@ -17,7 +17,7 @@ const Ricercatori = () => {
       .get("http://127.0.0.1:5002/ricercatori")
       .then((response) => {
         setRicercatori(response.data);
-        setFilteredRicercatori(response.data); // Заполняем отфильтрованный массив сразу
+        setFilteredRicercatori(response.data);
       })
       .catch((error) =>
         console.error("Ошибка при получении данных о Ricercatori:", error)
@@ -41,7 +41,6 @@ const Ricercatori = () => {
     setFilteredRicercatori(sortedData);
   };
 
-  // Фильтрация данных по имени и фамилии
   useEffect(() => {
     const filtered = ricercatori.filter((item) =>
       `${item.nome} ${item.cognome}`.toLowerCase().includes(searchTerm.toLowerCase())
@@ -54,7 +53,6 @@ const Ricercatori = () => {
       <br />
       <h1 className="text-center mb-4">Ricercatori</h1>
 
-      {/* Поле ввода для поиска */}
       <input
         type="text"
         className="form-control mb-3"
