@@ -2,6 +2,12 @@
 
 Questo progetto utilizza **React Native** per la parte mobile e **Flask** per fornire un'API che serve dati da un file JSON locale.
 
+```bash
+git clone https://github.com/drahauts/ProjectReact.git nome-repo
+cd nome-repo
+```
+
+
 ## Struttura del Progetto
 
 ### Backend (Flask)
